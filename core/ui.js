@@ -1078,7 +1078,10 @@ function markMessageNodeDeviceIfPossible(messageNode, msgID)
         imageElement.className = "device-type-image";
 
         var topMessageNode = messageNode.parentNode.parentNode.parentNode;
-        if (topMessageNode.innerHTML.includes("chat-profile-picture") || topMessageNode.innerHTML.includes("Open chat details"))
+        var previousNode = topMessageNode.previousElementSibling;
+        var possibleAvatarElement = previousNode ? previousNode : topMessageNode;
+
+        if (possibleAvatarElement.innerHTML.includes("chat-profile-picture") || possibleAvatarElement.innerHTML.includes("Open chat details"))
         {
             imageElement.className += " below-profile-picture";
         }

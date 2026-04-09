@@ -588,6 +588,7 @@ MultiDevice.getGoodCounterIndexForDecryption = async function(currentFrame, isIn
 
     if (foundCounterIndex == -1)
     {
+        console.warn("WAIncongito: decryption is not working, COUNTER PROBLEM");
         throw "Couldn't get the correct counter (isIncoming: " + isIncoming + ")" 
     }
 

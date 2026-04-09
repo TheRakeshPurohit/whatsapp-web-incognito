@@ -515,7 +515,7 @@ function setGlobalColorVaraibleString(variable, colorString)
     var selector2 = ".xj6uduu.xj6uduu, .xj6uduu.xj6uduu:root";
     var selector3 = ".x8mwjyx.x8mwjyx, .x8mwjyx.x8mwjyx:root";
     var selector4 = ".x1h89ln0.x1h89ln0, .x1h89ln0.x1h89ln0:root";
-    var selector5 = ".x9ux0ua.x9ux0ua, .x9ux0ua.x9ux0ua:root";
+    var selector5 = ".xul6ihk.xul6ihk, .xul6ihk.xul6ihk:root";
     var selector6 = ".x1646n1n.x1646n1n,.x1646n1n.x1646n1n:root";
     var selector7 = ".x8rilwt.x8rilwt, .x8rilwt.x8rilwt:root";
 
